@@ -1,4 +1,4 @@
-bucket_name = "devops-directive-web-app-data"
+bucket_name = "devops-directive-web-app-data-adx-yt-1"
 domain      = "devopsdeployed.com"
 db_name     = "mydb"
 db_user     = "foo"

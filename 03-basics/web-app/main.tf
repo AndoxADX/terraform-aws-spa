@@ -44,7 +44,7 @@ resource "aws_instance" "instance_2" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket        = "devops-directive-web-app-data"
+  bucket        = "devops-directive-web-app-data-adx-yt-1"
   force_destroy = true
   acl = "private"
 }
