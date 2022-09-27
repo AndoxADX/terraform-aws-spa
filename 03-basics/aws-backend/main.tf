@@ -50,6 +50,8 @@ resource "aws_dynamodb_table" "terraform_locks" {
   name         = "terraform-state-locking"
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "LockID"
+  read_capacity = 20 // disable auto scaling
+  write_capacity = 20 // disable auto scaling
   attribute {
     name = "LockID"
     type = "S"
